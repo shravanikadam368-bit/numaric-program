@@ -1,0 +1,9 @@
+#A Buzz Number is a number that is divisible by 7 or ends with 7.
+
+
+num = int(input("Enter a number: "))
+
+if num % 7 == 0 or num % 10 == 7:
+    print(num, "is a Buzz Number")
+else:
+    print(num, "is Not a Buzz Number")
